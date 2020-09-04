@@ -1,12 +1,13 @@
 # vue-calendar
 
+<img src="https://raw.githubusercontent.com/AfanasevAV/vue-calendar/master/public/favicon.png" alt="calendar">
+
 <pre>
                                            <h1>Guide</h1>
-<img src="https://raw.githubusercontent.com/AfanasevAV/vue-calendar/master/public/favicon.png" alt="calendar" style="float: right;">
-<p>Компонент calendar не использует сторонних библиотек. Для построения календаря принимает два пропса:
+    Компонент calendar не использует сторонних библиотек. Для построения календаря принимает два пропса:
 объект data по типу приведенного ниже (может быть пустым) и значение showSelected типа boolean
 отвечающее за отображение подсветки выбранной даты (не обязательно). При выборе даты компонент
-инициирует событие DateSelected и вместе с ним возвращает выбранную дату.</p>
+инициирует событие DateSelected и вместе с ним возвращает выбранную дату.
 
 
 <h2>Использование компонента в родительском шаблоне:</h2>
