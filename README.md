@@ -1,5 +1,7 @@
 # vue-calendar
 
+<img src="https://raw.githubusercontent.com/AfanasevAV/vue-calendar/master/public/favicon.png" alt="calendar">
+
 <pre>                                           Guide
     Компонент не использует сторонних библиотек. Для построения календаря принимает два пропса:
 объект data по типу приведенного ниже (может быть пустым) и значение showSelected типа boolean
