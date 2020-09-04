@@ -11,7 +11,6 @@
 
 
 <h2>Использование компонента в родительском шаблоне:</h2>
-
 &lt;calendar v-bind:data="data" v-bind:showSelected="true" @DateSelected="setDate"/&gt;
 &lt;calendar :data="{}"/&gt;
 
@@ -42,7 +41,6 @@
 },
 
 <h2>Запуск проекта:</h2>
-
 1) git clone https://github.com/AfanasevAV/vue-calendar.git
 2) cd vue-calendar
 3) npm i
