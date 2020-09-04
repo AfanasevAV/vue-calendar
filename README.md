@@ -1,12 +1,14 @@
 # vue-calendar
 
-<img src="https://raw.githubusercontent.com/AfanasevAV/vue-calendar/master/public/favicon.png" alt="calendar">
-
 <pre>                                           Guide
     Компонент не использует сторонних библиотек. Для построения календаря принимает два пропса:
 объект data по типу приведенного ниже (может быть пустым) и значение showSelected типа boolean
 отвечающее за отображение подсветки выбранной даты (не обязательно). При выборе даты компонент
 инициирует событие DateSelected и вместе с ним возвращает выбранную дату.
+
+<img src="https://raw.githubusercontent.com/AfanasevAV/vue-calendar/master/public/favicon.png" alt="calendar">
+
+Использование компонента в родительском шаблоне:
 
 &lt;calendar v-bind:data="data" v-bind:showSelected="true" @DateSelected="setDate"/&gt;
 &lt;calendar :data="{}"/&gt;
@@ -38,8 +40,9 @@
 },
 
 Запуск проекта:
-git clone https://github.com/AfanasevAV/vue-calendar.git
-cd vue-calendar
-npm i
-npm run serve
+
+1) git clone https://github.com/AfanasevAV/vue-calendar.git
+2) cd vue-calendar
+3) npm i
+4) npm run serve
 </pre>
