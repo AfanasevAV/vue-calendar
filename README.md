@@ -1,6 +1,6 @@
 # vue-calendar
 
-<pre style="background-color: #fff;">
+
                                            <h1>Guide</h1>
     Компонент не использует сторонних библиотек. Для построения календаря принимает два пропса:
 объект data по типу приведенного ниже (может быть пустым) и значение showSelected типа boolean
@@ -14,7 +14,7 @@
 &lt;calendar v-bind:data="data" v-bind:showSelected="true" 
 @DateSelected="setDate"/&gt;
 &lt;calendar :data="{}"/&gt;
-
+<pre>
 {
     data: {
         date: "2020-04-01",
