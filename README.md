@@ -9,7 +9,6 @@
 boolean отвечающее за отображение подсветки выбранной даты (не обязательно). При выборе даты
 компонент инициирует событие DateSelected и вместе с ним возвращает выбранную дату.
 
-
 <h2>Использование компонента в родительском шаблоне:</h2>
 &lt;calendar v-bind:data="data" v-bind:showSelected="true" @DateSelected="setDate"/&gt;
 &lt;calendar :data="{}"/&gt;
